@@ -31,7 +31,7 @@ The approach to building this application involved the following steps:
 
 ## Instructions
 
-To run the application locally, follow these steps:
+To run the application locally, follow either of these steps:
 
 1. Clone the repository to your local machine:
 
@@ -46,5 +46,20 @@ npm install
 npm run start
 
 ```
+
+2. Through Bundle
+
+```bash
+
+git clone poke-fe.bundle poke-fe
+
+cd poke-fe
+
+npm install
+
+npm run start
+
+```
+
 Thank You!
 
