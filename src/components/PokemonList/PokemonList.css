@@ -1,0 +1,79 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .pokemon-list {
+    text-align: center;
+  }
+  
+  .pokemon-list-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sort-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sort-button:hover {
+    background-color: #45a049;
+  }
+  
+  .pokemon-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .pokemon-card {
+    width: calc(25% - 20px);
+    margin: 10px;
+  }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  
+  .pagination li a {
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  .pagination li a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    cursor: pointer;
+  }
+  
